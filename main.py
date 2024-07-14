@@ -13,9 +13,9 @@ logging.basicConfig(level=logging.INFO)
 
 ### Setup values start
 
-GUILD_ID = 966586000417619998 # for emojis
+GUILD_ID = 1259244714654306404 # for emojis
 CATS_GUILD_ID = False # alternative guild purely for cattype emojis (use for christmas/halloween etc), False to disable
-BACKUP_ID = 1060545763194707998 # channel id for db backups, private extremely recommended
+BACKUP_ID = 1259245780498120830 # channel id for db backups, private extremely recommended
 # discord bot token, use os.environ for more security
 TOKEN = os.environ['token']
 # TOKEN = "token goes here"
@@ -30,11 +30,11 @@ TOP_GG_TOKEN = os.environ["top_gg_token"]
 
 # this will automatically restart the bot if message in GITHUB_CHANNEL_ID is sent, you can use a github webhook for that
 # set to False to disable
-GITHUB_CHANNEL_ID = 1060965767044149249
+GITHUB_CHANNEL_ID = 1259245926753505330
 
 # all messages in this channel will be interpreted as user ids to give premium access to
 # set to False to disable
-DONOR_CHANNEL_ID = 1249343008890028144
+DONOR_CHANNEL_ID = False
 
 # whether you use pm2 for running it or not
 # that will just silently kill it on autoupdate and let pm2 restart it instead of manually restarting it
@@ -47,7 +47,7 @@ WHITELISTED_BOTS = [] # bots which are allowed to catch cats
 # use if bot is in a team
 # if you dont know what that is or dont use it,
 # you can remove this line
-OWNER_ID = 553093932012011520
+# OWNER_ID = 553093932012011520
 
 # what to do when there is a crash
 CRASH_MODE = "RAISE"
